@@ -24,6 +24,9 @@ class Evtx(Thread, Auxiliary):
         "Setup",
         "System",
         "Windows PowerShell",
+        "Microsoft-Windows-PowerShell/Operational",
+        "Microsoft-Windows-DNS-Client/Operational",
+        "Microsoft-Windows-WMI-Activity/Operational",
         "Microsoft-Windows-Sysmon/Operational",
     ]
 
