@@ -48,7 +48,7 @@ SHOT_DELAY = 1
 # Skip the following area when comparing screen shots.
 # Example for 800x600 screen resolution.
 # SKIP_AREA = ((735, 575), (790, 595))
-SKIP_AREA = None
+SKIP_AREA = ((1350, 870), (1440, 900)) 
 
 
 class QEMUScreenshots(Auxiliary):
